@@ -1,0 +1,7 @@
+.image{
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/13/20/40/airport-1515434_960_720.jpg');
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+}

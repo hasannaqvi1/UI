@@ -1,0 +1,47 @@
+<div class="container">
+<div class="card col-md-4 offset-md-4 shadow-lg p-3 mb-5 bg-white">
+<h3 style="margin-top: 20px;" class="text-center">Enter details</h3>
+
+<b>Name</b>
+<input style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-style:none none solid none; 
+  border-color:green" type="text" class="form-control"  name="name" required minlength="3" #name=ngModel placeholder="Name" ngModel autofocus>
+<div class="alert alert danger" *ngIf="name.touched && !name.valid">
+<div *ngIf="name.errors.required">Name is required</div>
+<div *ngIf="name.errors.minlength">Please enter correct name.</div>
+</div> 
+<b>Email</b>
+<input style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-style:none none solid none; 
+  border-color:green;"
+   type="text" class="form-control" required name="Email" #email=ngModel minlength="5" placeholder="email" ngModel>
+<div class="alert alert danger" *ngIf="email.touched && !email.valid">
+<div *ngIf="email.errors.required">Email is required</div>
+<div *ngIf="email.errors.minlength">Please enter correct email.</div>
+</div>
+
+
+<b>Password</b>
+<input type="text" style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-style:none none solid none;border-color:green;" class="form-control" required name="password" #password=ngModel minlength="8" placeholder="Password" ngModel>
+<div class="alert alert danger" *ngIf="password.touched && !password.valid">
+<div *ngIf="password.errors.required">Password is required</div>
+<div *ngIf="password.errors.minlength">Please enter correct password.</div>
+</div>
+<label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+<a routerLink="/home" class="btn btn-primary">SignUp</a>
+</div>
+</div>

@@ -1,0 +1,14 @@
+.image{
+    background-image: url('https://www.absolutemagazine.co.uk/wp-content/uploads/2019/09/download-1.jpg');
+    /* min-height: 100%;
+    min-width: 1024px; */
+    background-position: center;
+    width: 100%;
+     background-size: cover;
+     height: 500px;
+
+    
+    
+    top: 0;
+    left: 0;
+   }

@@ -1,0 +1,14 @@
+.image{
+    background-image: url('https://img.jakpost.net/c/2020/05/10/2020_05_10_94895_1589110955._large.jpg');
+    /* min-height: 100%;
+    min-width: 1024px; */
+    background-position: center;
+    width: 100%;
+     background-size: cover;
+     height: 500px;
+
+    
+    
+    top: 0;
+    left: 0;
+   }

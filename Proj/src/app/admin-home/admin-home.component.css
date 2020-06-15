@@ -1,0 +1,14 @@
+.image{
+    background-image: url('https://www.som.com/FILE/24004/chhatrapatishivaji_680x510_robert_polidori__mumbai_international_airport_pvtltd.jpg?w=680&h=510&m=e');
+    /* min-height: 100%;
+    min-width: 1024px; */
+    background-position: center;
+    width: 100%;
+     background-size: cover;
+     height: 500px;
+
+    
+    
+    top: 0;
+    left: 0;
+   }
